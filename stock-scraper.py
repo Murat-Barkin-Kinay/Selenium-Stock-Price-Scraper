@@ -18,7 +18,7 @@ def get_stock_price(ticker):
             driver.quit()
 
 def main():
-    ticker = input("Enter the stock ticker of whose price you want logged: ")
+    ticker = input("Enter the stock ticker whose price you want logged: ")
     get_stock_price(ticker)
 
 if __name__ == "__main__":
